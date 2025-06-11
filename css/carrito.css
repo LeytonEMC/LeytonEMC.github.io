@@ -1,0 +1,75 @@
+/* Estilos generales del carrito */
+.cart-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 26px;
+  color: #333;
+}
+
+/* Tabla de productos en el carrito */
+.cart-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.cart-container th,
+.cart-container td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-container th {
+  background-color: #f8f8f8;
+  color: #444;
+}
+
+.cart-container td img {
+  max-width: 60px;
+  height: auto;
+}
+
+/* Botón eliminar */
+.cart-container a {
+  color: #e74c3c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cart-container a:hover {
+  text-decoration: underline;
+}
+
+/* Botón vaciar */
+.cart-container .vaciar-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff4d4d;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cart-container .vaciar-btn:hover {
+  background-color: #e60000;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .cart-container table,
+  .cart-container th,
+  .cart-container td {
+    font-size: 14px;
+  }
+}
